@@ -1,7 +1,3 @@
-html * {
-    font-family: roboto;
-}
-
 header {
     display: flex;
     align-items: center;
@@ -93,7 +89,6 @@ header {
     border-radius: 20px;
     border-width: 10px;
     border-color: #3882F6;
-    border-style: solid;
 }
 
 .box-3 {
@@ -111,51 +106,6 @@ header {
 
 .box-3 p {
     text-align: right;
-    font-size: 18px;
-    font-weight: bolder;
-}
-
-.box-4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 125px;
-}
-
-.sign-up-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 900px;
-    height:150px;
-    border-radius: 20px;
-    background-color: #3882F6;
-    color:#E5E7EB;
-}
-
-.info h2 {
-    margin-bottom: 0px;
-}
-
-.info p {
-    margin-top: 0px;
-}
-
-.sign-up-button {
-    font-size:18px;
-    background-color: #3882F6;
-    color:#E5E7EB;
-    padding: 5px 20px;
-    border-radius: 5px;
-    border-style: solid;
-    border-color:#E5E7EB;
-}
-
-.footer {
-    background-color: #1F2937;
-    text-align: center;
-    color:#E5E7EB;
-    padding: 25px;
 }
 
 
@@ -170,5 +120,5 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: roboto;
 }
-
